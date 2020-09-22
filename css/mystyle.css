@@ -130,7 +130,7 @@ body{
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
-  width: 25px;
+  width: 100%;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
