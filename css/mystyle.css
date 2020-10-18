@@ -25,6 +25,10 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+#header h1:hover{
+  font-size: 60px;
+}
+
 #header h1 a, #header h1 a:hover {
   color: #fff;
   line-height: 1;
@@ -581,7 +585,7 @@ section .container {
 }
 
 .certification img{
-  height: 200px;
+  height: 250px;
 }
 
 /*--------------------------------------------------------------
@@ -677,7 +681,23 @@ p{
   width: 100%;
 }
 
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.blog span{
+  color: #18d26e;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog p{
+  font-family: "Poppins", sans-serif;
+}
+
 .blog img{
 
   width: 100%;
 }
+
+
