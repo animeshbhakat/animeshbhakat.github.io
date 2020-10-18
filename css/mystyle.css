@@ -26,7 +26,7 @@ body{
 }
 
 #header h1:hover{
-  font-size: 60px;
+  font-size: 400%;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -40,6 +40,40 @@ body{
   font-size: 24px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.typed-text{
+  color: #18d26e;
+  text-decoration: none;
+}
+
+.cursor{
+  display: inline-block;
+  width: 2px;
+  background-color: #fff;
+  margin: 0.1rem; 
+  animation: blink 1s infinite;
+}
+.cursor.typing{
+  animation: none;
+}
+
+@keyframes blink{
+  0%{
+    background-color: #fff;
+  }
+  49%{
+    background-color: #fff; 
+  }
+  50%{
+    background-color: transparent; 
+  }
+  99%{
+    background-color: transparent; 
+  }
+  100%{
+    background-color: #fff;
+  }
 }
 
 #header h2 span {
@@ -699,5 +733,6 @@ p{
 
   width: 100%;
 }
+
 
 
