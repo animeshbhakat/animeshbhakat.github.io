@@ -429,7 +429,35 @@ section .container {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+.skills .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+.skills .icon-box i{
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.skills .icon-box h3{
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  font-family: helvetica;
+  color: #fff; 
+}
+
+.skills .icon-box:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/*.skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -459,7 +487,7 @@ section .container {
   height: 10px;
   transition: .9s;
   background-color: #18d26e;
-}
+}*/
 
 /*--------------------------------------------------------------
 # certifications
