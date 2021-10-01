@@ -400,6 +400,10 @@ section .container {
   color: #18d26e;
 }
 
+.about-me .row .imageabc img:first-child{
+  border-radius: 50%; 
+}
+
 .about-me .content ul {
   list-style: none;
   padding: 0;
