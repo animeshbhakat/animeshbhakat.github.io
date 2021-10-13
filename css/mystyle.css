@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -30,7 +30,13 @@ body{
 =======
 >>>>>>> parent of ffab238 (Fixed background pic scrolling bug)
 }
+*/
 
+body{
+  background: #040404 url("../images/bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 #header {
   transition: ease-in-out 0.3s;
