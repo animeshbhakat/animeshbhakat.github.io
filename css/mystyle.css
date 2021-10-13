@@ -1,5 +1,7 @@
 body{
   background: #040404 url("../images/bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: fixed;
 }
 
 #header {
