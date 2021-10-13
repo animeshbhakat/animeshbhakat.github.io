@@ -20,12 +20,15 @@ body::before {
 =======
 body{
   background: #040404 url("../images/bg.jpg") top right no-repeat;
+<<<<<<< HEAD
 >>>>>>> parent of ffab238 (Fixed background pic scrolling bug)
 }
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
+=======
+>>>>>>> parent of ffab238 (Fixed background pic scrolling bug)
 }
 
 
