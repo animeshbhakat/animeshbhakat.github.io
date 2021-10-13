@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -16,6 +17,10 @@ body::before {
   height: 100vh;
   z-index: -1;
   
+=======
+body{
+  background: #040404 url("../images/bg.jpg") top right no-repeat;
+>>>>>>> parent of ffab238 (Fixed background pic scrolling bug)
 }
 @media (min-width: 1024px) {
   body::before {
