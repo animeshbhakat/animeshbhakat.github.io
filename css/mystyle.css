@@ -485,7 +485,7 @@ section .container {
 
 .about-me .row .imageabc img:first-child{
   border-radius: 50%; 
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 .about-me .content ul {
